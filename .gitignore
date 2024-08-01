@@ -1,0 +1,8 @@
+# https://dart.dev/guides/libraries/private-files
+# Created by `dart pub`
+.DS_Store
+.dart_tool/
+/videos/Daughter.mp4
+/videos/Gent.mp4
+/videos/Madam.mp4
+
