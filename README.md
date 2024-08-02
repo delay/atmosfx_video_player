@@ -25,7 +25,7 @@ void main() async {
 }
 ```
 
-The code uses the free, open source, and cross-platform mpv media player. You will also need to [install dart and/or flutter](https://docs.flutter.dev/get-started/install) to run the program. You can see more about running command line apps with this [link](https://dart.dev/tools/dart-tool). You should be able to run this code cross platform (windows, mac, linux, etc.).
+The code uses the free, open source, and cross-platform [mpv media player](https://mpv.io/). You will also need to [install dart and/or flutter](https://docs.flutter.dev/get-started/install) to run the program. You can see more about running command line apps with this [link](https://dart.dev/tools/dart-tool). You should be able to run this code cross platform (windows, mac, linux, etc.).
 
 I was using the video files from the [Unliving Portrait Collection from Atmosfx](https://atmosfx.com/collections/halloween/products/unliving-portraits). I merged the ones in family feud singles directory TV/Wall no frame. There are three different scenes so I used imovie to merge each of the Daughter scenes into one video and then did the same for the Gent and the Madam. It then just plays an infinite loop of the three videos, one video per monitor. I did not include the actual videos. They are available for purchase from atmosFx. I am not affiliated with them I just wanted a way to easily play the videos on 3 separate monitors so I could make three framed monitors and keep all the videos in sync. You need a computer that can support output to three separate monitors.
 
