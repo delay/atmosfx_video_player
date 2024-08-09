@@ -2,7 +2,7 @@
 
 ![AtomsFX Unliving Portraits](https://cdn-images-1.medium.com/max/1600/1*dQggyRkBji0bKUhCCYdtvQ@2x.png)
 
-I needed a way to playback [AtmosFX videos](https://atmosfx.com) on three separate screens and stay in sync. Initially I tried using three media players, one per screen and then starting them all together. The problem with this method is they would quickly lose sync. I figured the only way for them to stay in sync would be for one device to control the playback of all video files.
+I needed a way to playback [AtmosFX videos](https://atmosfx.com) on three separate screens and stay in sync. Initially I tried using three media players, one per screen and then starting them all together. The problem with this method is they would eventually lose sync. I figured the only way for them to stay in sync would be for one device to control the playback of all video files.
 
 I wrote a small command line program in dart which launches each video file to a separate screen in full screen mode and then loops the video when it reaches the end. This solves the video syncing issue for my use case. The only thing you need is a computer with the ability to playback 1080p videos to three separate monitors.
 Below is the relevant code:
